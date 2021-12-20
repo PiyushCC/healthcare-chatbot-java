@@ -28,7 +28,43 @@ Configuring the project
 
 8. All the required conifgurations are mentioned but no detailed explanation is given for installation individual configurations. (You will need to do it yourselves)
 
+Example Conversation
+--------------------
+
+Bot - Welcome! How may I help you?
+
+You - Good morning
+
+Bot - Good morning!
+
+You - Who are you
+
+Bot - I am a healthcare chatbot
+
+You - What can you do
+
+Bot - I can tell you the symptoms and treatment of diseases
+
+You - ok
+
+Bot - yes
+
+You - What are the symptoms of malaria
+
+Bot - The symptoms of malaria are fever, headache, vommitting, fatigue
+
+You - Hospitals near me
+
+Bot - (Opens chrome and shows nearby hospitals need location on in system)
+
 Screenshots
 -----------
 
+![1](https://user-images.githubusercontent.com/87484921/146742578-830f34d1-9c0a-43be-8d11-29d68e083a08.png)
+
+![2](https://user-images.githubusercontent.com/87484921/146742607-d67010a1-6e1a-4a75-9efc-ee2c33113fa5.png)
+
+![3](https://user-images.githubusercontent.com/87484921/146742628-084d5070-a966-4cfc-a9cb-64f9bb988181.png)
+
+![4](https://user-images.githubusercontent.com/87484921/146742647-aa46421d-973d-4906-a8f0-292bd5c0c695.png)
 
