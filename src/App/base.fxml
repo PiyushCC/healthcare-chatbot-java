@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.BaseCon">
+   <children>
+      <BorderPane fx:id="bPane" prefHeight="181.0" prefWidth="182.0" style="-fx-background-color: #806CCD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="696.0" prefWidth="134.0" spacing="5.0" style="-fx-background-color: #400080;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnChat" mnemonicParsing="false" onAction="#chatClick" prefHeight="95.0" prefWidth="134.0" style="-fx-background-color: #ffccff;" text="Chat" textFill="#095d5f">
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="60.0">
+                           <image>
+                              <Image url="@msg.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnIns" mnemonicParsing="false" onAction="#insClick" prefHeight="94.0" prefWidth="134.0" style="-fx-background-color: #ffccff;" text="Info" textFill="#0004ed">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="50.0">
+                           <image>
+                              <Image url="@info.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btndb" mnemonicParsing="false" onAction="#dbClick" prefHeight="94.0" prefWidth="134.0" style="-fx-background-color: #ffccff;" text="Database" textFill="#8c7209">
+                     <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="40.0">
+                           <image>
+                              <Image url="@db.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnExit" mnemonicParsing="false" onAction="#exitClick" prefHeight="94.0" prefWidth="134.0" style="-fx-background-color: #ffccff;" text="Exit" textFill="RED">
+                     <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="40.0">
+                           <image>
+                              <Image url="@exit.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

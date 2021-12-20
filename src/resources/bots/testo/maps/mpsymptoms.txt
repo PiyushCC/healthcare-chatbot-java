@@ -1,0 +1,26 @@
+cvd:eye problems, headache, pain
+abdominal pain:cramps, vomitting
+chicken pox:rashes, itching, fever, back pain, loss of appetite
+food poisioning:vomitting, cramps, pain, muscle tension
+swine flu:fever, headche, running nose, breathlessness, running nose, loss of appetite
+anxiety:fatigue, dry mouth, cramps, insomania, muscle tension, twitching
+alzeheimer:forgetfulness, difficulty in remebering, difficulty in concentration
+anameia:breathlessness, dizziness, headache, cold, pale skin, chest pain
+asthma:wheezing, breathlessness, chest pain, cough
+bronchitis:chest pain, breathlessness, wheezing, sore throat, fever, blocked nose
+cholera:diarrhea, vomitting, cramps
+cavities:dark spots, toothache, sensitivity
+covid:fever, cough, breathlessness
+diarrhea:watery stools, cramps, vomitting, fever, weight loss
+dengue:fever, headache, muscle tension, rashes, loss of appetite, sore throat
+ebola:fever, headche, weakness, muscle tension, vomitting, loss of appetite
+fracture:pain, bleeding , swelling
+goitre:breathlessness, cough,, hoarseness of voice
+hepatitis:muscle tension, headache, high temperature
+insomania:sleeplessness
+jaundice:yellow eyes, dark urine, pale stools
+malaria:fever, headche, vomitting, fatigue
+rabies:anxiety, insomnia, fever, vomitting, headache, hydrophobia, photophobia
+tb:breathlessness, lack of appetite, weight loss, chest pain
+typhoid:fever, pink spots, loss of appetitie, fatigue
+pneumonia:fever, loss of appetite, chest pain, headache, fatigue, wheezing

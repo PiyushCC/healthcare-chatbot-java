@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>HOSPITALS</pattern>
+<template>show hospitals</template>
+</category>
+<category><pattern>CABP</pattern>
+<template><think><set name="topic">cabp</set></think>
+	        Abdominal pain generally goes with time, nl but if persists then you need medical attention nl if more than 48 hours have passed type yes or no.</template>
+</category>
+<topic name="CABP">
+<category><pattern>YES</pattern>
+<template><think><set name="topic">cabp2</set></think>
+             then i would suggest you should visit a hospital nl should i show you nearby hospitals</template>
+</category></topic>
+
+<topic name="CABP">
+<category><pattern>NO</pattern>
+<template>ok, try drinking more fluids it will help</template>
+</category></topic>
+
+<topic name="CABP2">
+<category><pattern>YES</pattern>
+<template>show hospitals</template>
+</category></topic>
+
+<topic name="CABP2">
+<category><pattern>NO</pattern>
+<template>ok, try drinking more fluids it will help</template>
+</category></topic>
+
+<category><pattern>CANX</pattern>
+<template><think><set name="topic">canx</set></think>
+            Do activities like yoga, meditation, games and music to avoid stress ok?</template>
+</category>
+<topic name="CANX">
+<category><pattern>OK</pattern>
+<template>If still you want nl i can show you nearby hospitalsnl just type hospitals near me</template>
+</category></topic>
+
+<topic name="CANX">
+<category><pattern>YES</pattern>
+<template>If still you want nl i can show you nearby hospitalsnl just type hospitals near me</template>
+</category></topic>
+
+<topic name="CANX">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CALZ</pattern>
+<template><think><set name="topic">calz</set></think>
+            There are no proper treatment, nl but I can redirect you to a site, nl where you can find more information</template>
+</category>
+<topic name="CALZ">
+<category><pattern>OK</pattern>
+<template>link alz</template>
+</category></topic>
+
+<topic name="CALZ">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CALZ">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CANA</pattern>
+<template><think><set name="topic">cana</set></think>
+            You should seek medical attention nl should I show you management for it.</template>
+</category>
+<topic name="CANA">
+<category><pattern>OK</pattern>
+<template>You should eat green leafy vegetables, nl cereals, whole grains, beans , nuts, meat and apricots</template>
+</category></topic>
+
+<topic name="CANA">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CANA">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CFP</pattern>
+<template><think><set name="topic">cfp</set></think>
+            In most cases of food poisoning, symptoms can be relieved at home nl without seeing physician. Use ORS and drink plenty fluids and nl if condition persists visit the doctor.</template>
+</category>
+<category><pattern>CSF</pattern>
+<template><think><set name="topic">csf</set></think>
+            zanamivir and oseltamivir are used but with only doctors prescription</template>
+</category>
+<category><pattern>CBRON</pattern>
+<template><think><set name="topic">cbron</set></think>
+            You should seek medical attention nl should I show you management for it.</template>
+</category>
+<topic name="CBRON">
+<category><pattern>OK</pattern>
+<template>You should take rest, drink fluids, nl for headaches you can use pain releivers like Paracetamol or Ibuprofen</template>
+</category></topic>
+
+<topic name="CBRON">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CBRON">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CCHL</pattern>
+<template><think><set name="topic">cchl</set></think>
+            You should seek medical attention nl should I show you management for it.</template>
+</category>
+<topic name="CCHL">
+<category><pattern>OK</pattern>
+<template>You should use ORS for in case of dehydration, nl and standard home solution like salted rice water, salted yogurt drinks,nl vegetable and chicken soups with salt can be given.</template>
+</category></topic>
+
+<topic name="CCHL">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CCHL">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CDIA</pattern>
+<template><think><set name="topic">cdia</set></think>
+            You should seek medical attention nl should I show you management for it.</template>
+</category>
+<topic name="CDIA">
+<category><pattern>OK</pattern>
+<template>You should use ORS for in case of dehydration, nl drink fluids and eating.</template>
+</category></topic>
+
+<topic name="CDIA">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CDIA">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CCOVID</pattern>
+<template><think><set name="topic">ccovid</set></think>
+            You need medical help urgently should I show you nearby hospitals.</template>
+</category>
+<topic name="CCOVID">
+<category><pattern>OK</pattern>
+<template>show hospitals</template>
+</category></topic>
+
+<topic name="CCOVID">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CCOVID">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CDEN</pattern>
+<template><think><set name="topic">cden</set></think>
+            You need medical help urgently should I show you prevention.</template>
+</category>
+<topic name="CDEN">
+<category><pattern>OK</pattern>
+<template>Remove water from containers atleast once in a week, nl use mosquito repellants or nets, nl aersol can be used to kill mosquitoes</template>
+</category></topic>
+
+<topic name="CDEN">
+<category><pattern>YES</pattern>
+<template><srai>ok</srai></template>
+</category></topic>
+
+<topic name="CDEN">
+<category><pattern>NO</pattern>
+<template>Ok then take care nl and remember I am there for you</template>
+</category></topic>
+
+<category><pattern>CINS</pattern>
+<template><think><set name="topic">cins</set></think>
+             Cognitive behavioural treatments (CBT) aim to change unhelpful thoughts nl and behaviours that may be contributing to insomnia. nl They are Stimulus-control therapy, Sleep restriction therapy,nl Relaxation training (doctor's consultation required).</template>
+</category>
+</aiml>

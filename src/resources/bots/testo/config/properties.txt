@@ -1,0 +1,3 @@
+botname:Jasper
+username:unknown
+lastdis:unknown

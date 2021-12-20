@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>ADMIN NOT UNDERSTAND</pattern>
+<template><random>
+            <li>Sorry, i did not understood that</li>
+            <li>Sorry, can not help you with that</li>
+            <li>I am not programmed to know that</li>
+            <li>I have no answer for that</li>
+            </random>
+           , nl for more information type info</template>
+</category>
+<category><pattern>*</pattern>
+<template><srai>ADMIN NOT UNDERSTAND</srai></template>
+</category>
+<category><pattern>ADMIN GREETINGS</pattern>
+<template><random>
+                <li>Hi</li>
+                <li>Hello</li>
+                <li>Hello there!</li>
+                <li>Hi there!</li>
+                <li>Welcome to the chatbot application</li>
+            </random></template>
+</category>
+<category><pattern>_ NICE TO MEET YOU</pattern>
+<template><srai>ADMIN GREETINGS</srai> nice to meet you too!</template>
+</category>
+<category><pattern>NICE TO MEET YOU</pattern>
+<template>Nice to meet you too</template>
+</category>
+<category><pattern>^ HELLO ^</pattern>
+<template><srai>ADMIN GREETINGS</srai></template>
+</category>
+<category><pattern>^ HI ^</pattern>
+<template><srai>ADMIN GREETINGS</srai></template>
+</category>
+<category><pattern>GOOD *</pattern>
+<template>Good <star/>!</template>
+</category>
+<category><pattern>HEY *</pattern>
+<template><srai>ADMIN GREETINGS</srai></template>
+</category>
+<category><pattern>HEY</pattern>
+<template><srai>ADMIN GREETINGS</srai></template>
+</category>
+<category><pattern>GIVE INTRO</pattern>
+<template><random>
+            <li>Welcome! How may i help you?</li>
+            <li>Hi there! I will be nl more than happy to help you.</li>
+        </random></template>
+</category>
+</aiml>

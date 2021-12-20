@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>_ COVID 19</pattern>
+<template><srai><star/> covid</srai></template>
+</category>
+<category><pattern>_ CORONA</pattern>
+<template><srai><star/> covid</srai></template>
+</category>
+<category><pattern>_ STOMACH ACHE</pattern>
+<template><srai><star/> abdominal pain</srai></template>
+</category>
+<category><pattern>_ STOMACHACHE</pattern>
+<template><srai><star/> abdominal pain</srai></template>
+</category>
+<category><pattern>_ CHICKENPOX</pattern>
+<template><srai><star/> chicken pox</srai></template>
+</category>
+<category><pattern>_ ALZEHEIMER'S</pattern>
+<template><srai><star/> alzeheimer</srai></template>
+</category>
+<category><pattern>_ ALZEHEIMERS</pattern>
+<template><srai><star/> alzeheimer</srai></template>
+</category>
+<category><pattern>_ CAVITY</pattern>
+<template><srai><star/> cavities</srai></template>
+</category>
+<category><pattern>_ COMPUTER VISION SYNDROME</pattern>
+<template><srai><star/> cvd</srai></template>
+</category>
+<category><pattern>_ TUBERCULOSIS</pattern>
+<template><srai><star/> tb</srai></template>
+</category>
+</aiml>

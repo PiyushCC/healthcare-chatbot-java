@@ -1,0 +1,13 @@
+abdominal pain:cabp
+anxiety:canx
+alzeheimer:calz
+anameia:cana
+food poisioning:cfp
+swine flu:csf
+bronchitis:cbron
+cholera:cchl
+diarrhoea:cdia
+covid:ccovid
+diarrhea:cdia
+dengue:cden
+insomania:cins

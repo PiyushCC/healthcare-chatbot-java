@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>_ CURE OF *</pattern>
+<template><think><set name="lastdis"><star index="2"/></set></think>
+	        <srai><map name="mpcure"><star index="2"/></map></srai></template>
+</category>
+<category><pattern>^ CURE OF *</pattern>
+<template><think><set name="lastdis"><star index="2"/></set></think>
+	        <srai><map name="mpcure"><star index="2"/></map></srai></template>
+</category>
+<category><pattern>_ CURE FOR *</pattern>
+<template><think><set name="lastdis"><star index="2"/></set></think>
+	        <srai><map name="mpcure"><star index="2"/></map></srai></template>
+</category>
+<category><pattern>^ CURE FOR *</pattern>
+<template><think><set name="lastdis"><star index="2"/></set></think>
+	        <srai><map name="mpcure"><star index="2"/></map></srai></template>
+</category>
+</aiml>

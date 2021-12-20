@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>WHO ARE YOU</pattern>
+<template>I am a healthcare chatbot</template>
+</category>
+<category><pattern>WHAT CAN YOU DO</pattern>
+<template>I can tell you the symptoms and treatment of diseases.</template>
+</category>
+<category><pattern>WHAT IS YOUR PURPOSE</pattern>
+<template><srai>what can you do</srai></template>
+</category>
+<category><pattern>PRAISE</pattern>
+<template><random>
+            <li>Glad to help!</li>
+            <li>I am happy to help</li>
+            <li>My Pleasure</li>
+            <li>I am always there for you</li>
+        </random></template>
+</category>
+<category><pattern>THANK YOU</pattern>
+<template><srai>PRAISE</srai></template>
+</category>
+<category><pattern>THANKS</pattern>
+<template><srai>Thank you</srai></template>
+</category>
+<category><pattern>OK</pattern>
+<template>yes</template>
+</category>
+<category><pattern>INFO</pattern>
+<template>gotosite</template>
+</category>
+</aiml>

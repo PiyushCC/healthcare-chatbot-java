@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>ADMIN BOT NAME</pattern>
+<template><random>
+        <li>My name is </li>
+        <li>You can call me </li>
+        <li>I am </li>
+        <li>Everyone calls me </li>
+        </random>
+	    <bot name="botname"/>
+	    <condition name="username">,
+	        <li value="unknown"><srai>ADMIN USER NAME</srai></li>
+	    </condition></template>
+</category>
+<category><pattern>^ YOUR NAME ^</pattern>
+<template><srai>ADMIN BOT NAME</srai></template>
+</category>
+<category><pattern>ADMIN USER NAME</pattern>
+<template><random>
+            <li>. Tell me your name</li>
+            <li>. What is your name</li>
+            <li>. I would love to know your name</li>
+        </random></template>
+</category>
+<category><pattern>MY NAME IS *</pattern>
+<template><think><set name="topic">TNAME</set></think>
+    <think><set name="username"><star/></set></think>
+            <srai>ADMIN NAME COMPLIMENT</srai></template>
+</category>
+<topic name="TNAME">
+<category><pattern>THANK YOU</pattern>
+<template><random>
+                <li>You are welcome</li>
+                <li>sure</li>
+            </random></template>
+</category></topic>
+
+<category><pattern>I AM *</pattern>
+<template><srai>MY NAME IS <star/></srai></template>
+</category>
+<category><pattern>ADMIN NAME COMPLIMENT</pattern>
+<template><random>
+        <li>Nice name, </li>
+        <li>You have a nice name, </li>
+        <li>Great name, </li>
+        <li>What a pretty name, </li>
+        <li>I like your name, </li>
+        </random><get name="username"/></template>
+</category>
+</aiml>

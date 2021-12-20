@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>^ SYMPTOMS OF *</pattern>
+<template><think><set name="lastdis"><star index="2"/></set></think>
+The symptoms of <star index="2"/> are nl<map name="mpsymptoms"><star index="2"/></map></template>
+</category>
+<category><pattern>SYMPTOMS OF *</pattern>
+<template><think><set name="lastdis"><star index="2"/></set></think>
+The symptoms of <star index="1"/> are nl<map name="mpsymptoms"><star index="1"/></map></template>
+</category>
+</aiml>

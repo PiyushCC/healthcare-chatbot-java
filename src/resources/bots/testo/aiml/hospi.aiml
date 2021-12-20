@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>_ HOSPITAL NEAR ME</pattern>
+<template>show hospitals</template>
+</category>
+<category><pattern>_ HOSPITALS NEAR ME</pattern>
+<template>show hospitals</template>
+</category>
+<category><pattern>^ HOSPITAL NEAR ME</pattern>
+<template>show hospitals</template>
+</category>
+<category><pattern>^ HOSPITALS NEAR ME</pattern>
+<template>show hospitals</template>
+</category>
+</aiml>
